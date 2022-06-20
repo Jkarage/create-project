@@ -23,5 +23,6 @@ function parseArgumentsIntoOptions(rawArgs) {
 }
 
 export function cli(args) {
-    console.log(args)
+    let options = parseArgumentsIntoOptions(args);
+    console.log(options)
 }
