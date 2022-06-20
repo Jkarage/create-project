@@ -1,0 +1,40 @@
+{
+  "name": "@jkarage/create-project",
+  "version": "1.0.0",
+  "description": "A cli to bootstrap my projects",
+  "main": "src/index.js",
+  "bin": {
+    "@jkarage/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig":{
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^5.0.3",
+    "chalk": "^5.0.1",
+    "covgen": "^3.2.1",
+    "esm": "^3.2.25",
+    "execa": "^6.1.0",
+    "gitignore": "^0.7.0",
+    "inquirer": "^9.0.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0",
+    "spdx-license-list": "^6.6.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
+}
