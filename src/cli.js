@@ -1,5 +1,5 @@
 import arg from 'arg';
-import inquirer from inquirer;
+import inquirer from "inquirer";
 
 function parseArgumentsIntoOptions(rawArgs) {
     const args = arg(
